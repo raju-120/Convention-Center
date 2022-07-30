@@ -82,76 +82,264 @@
                     <div class="card-body ">
                       <h1 class="card-title">Every memory is precious</h1>
                       <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <button class="btn btn-primary">Explore our album <img src="icons/arrow-right.svg" alt=""></button> 
-                    </div>
-                  </div>
-                </div>
-                <div class="modal modal-sheet position-static d-block bg-secondary py-5" tabindex="-1" role="dialog" id="modalSheet">
-                    <div class="modal-dialog" role="document">
-                      <div class="modal-content rounded-4 shadow">
-                        <div class="modal-header border-bottom-0">
-                          <h5 class="modal-title">Modal title</h5>
-                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body py-0">
-                          <p><img src="icons/Vector.svg" alt=""> 20% off on next booking.</p>
+
+                      <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Explore our album <img src="icons/arrow-right.svg" alt=""></button> 
+                      
+                      <div class="modal" tabindex="-1" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <p><img src="icons/Vector.svg" alt=""> 20% off on next booking.</p>
+                            </div>
+                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
+                </div>
             </div>
         </section>
-        <!---------------------------Card Items------------------------------>
+        <!---------------Card Pricing Item start-------------->
         <section class="container mb-3">
-            <h1 class="d-flex justify-content-center align-item-center mb-3">Our Packages</h1>
-            <!--<div class="container">
-                <div class="row">
-                    <div class="col-3">
-                        <h2>$300</h2>
-                        <h3>Business fair</h3>
-                        <p>for most business event like book fair.craft fair.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
-                <div class="toast-header">
-                  <strong class="me-auto">Bootstrap</strong>
-                  <small>11 mins ago</small>
-                  <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
-                </div>
-                <div class="toast-body">
-                  Hello, world! This is a toast message.
-                </div>
-              </div>-->
-            <div class="card-group mb-3">
-                <div class="card">
+            <h1 class="d-flex justify-content-center align-item-center mb-5">Our Packages</h1>
+            <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 mb-3 ">
+              <!----------------First Card------------>
+              <div class="col">
+                <div class="card mb-3 rounded-3 shadow-lg">
                   <div class="card-body">
-                    <h2 class="card-title">$300</h2>
-                    <h3>Business fair</h3>
-                    <p class="card-text">For most business event event like book fair.craft fair.</p>
-                  </div>
-                </div>
-                <div class="card">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                  </div>
-                </div>
-                <div class="card">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                  </div>
-                </div>
-                <div class="card">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                    <h1 class="card-title pricing-card-title ">$300</h1>
+                    <h1 class="card-title pricing-card-title">Business fair</h1>
+                    <p><small>For more business event like book fair or else.</small></p>
+                    <ul class="list-unstyled mt-3 mb-4">
+
+                      <label class="list-group-item d-flex gap-2">
+                        <input class="form-check-input flex-shrink-0" type="checkbox" value="" checked>
+                        <span>
+                          limited space access
+                        </span>
+                      </label>
+                      <label class="list-group-item d-flex gap-2">
+                        <input class="form-check-input flex-shrink-0" type="checkbox" value="" checked>
+                        <span>
+                          Security facility
+                        </span>
+                      </label>
+                      <label class="list-group-item d-flex gap-2">
+                        <input class="form-check-input flex-shrink-0" type="checkbox" value="" checked>
+                        <span>
+                          event support
+                        </span>
+                      </label>
+                      <label class="list-group-item d-flex gap-2">
+                        <input class="form-check-input flex-shrink-0" type="checkbox" value="" checked>
+                        <span>
+                          Decoration design
+                        </span>
+                      </label>
+                      <label class="list-group-item d-flex gap-2">
+                        <input class="form-check-input flex-shrink-0" type="checkbox" value="" checked>
+                        <span>
+                          Per day bill
+                        </span>
+                      </label>
+                    </ul>
+                    <button type="button" class=" border w-100 rounded-pill  text-primary fw-semibold bg-white">Choose Plan</button>
                   </div>
                 </div>
               </div>
+              <!----------------Second Card------------>
+              <div class="col">
+                <div class="card mb-3 rounded-3 shadow-lg">
+                  <div class="card-body">
+                    <h1 class="card-title pricing-card-title ">$300</h1>
+                    <h1 class="card-title pricing-card-title">Business fair</h1>
+                    <p><small>For more business event like book fair or else.</small></p>
+                    <ul class="list-unstyled mt-3 mb-4">
+
+                      <label class="list-group-item d-flex gap-2">
+                        <input class="form-check-input flex-shrink-0" type="checkbox" value="" checked>
+                        <span>
+                          limited space access
+                        </span>
+                      </label>
+                      <label class="list-group-item d-flex gap-2">
+                        <input class="form-check-input flex-shrink-0" type="checkbox" value="" checked>
+                        <span>
+                          Security facility
+                        </span>
+                      </label>
+                      <label class="list-group-item d-flex gap-2">
+                        <input class="form-check-input flex-shrink-0" type="checkbox" value="" checked>
+                        <span>
+                          event support
+                        </span>
+                      </label>
+                      <label class="list-group-item d-flex gap-2">
+                        <input class="form-check-input flex-shrink-0" type="checkbox" value="" checked>
+                        <span>
+                          Decoration design
+                        </span>
+                      </label>
+                      <label class="list-group-item d-flex gap-2">
+                        <input class="form-check-input flex-shrink-0" type="checkbox" value="" checked>
+                        <span>
+                          Per day bill
+                        </span>
+                      </label>
+                    </ul>
+                    <button type="button" class=" border w-100 rounded-pill  text-primary fw-semibold bg-white">Choose Plan</button>
+                  </div>
+                </div>
+              </div>
+              <!----Thrid Card-->
+              <div class="col">
+              <div class="card mb-3 rounded-3 shadow-lg position-relative bg-primary">
+                <div class="card-body">
+                  <h1 class="card-title pricing-card-title ">$300</h1>
+                  <h1 class="card-title pricing-card-title">Business fair</h1>
+                  <p><small>For more business event like book fair or else.</small></p>
+                  <ul class="list-unstyled mt-3 mb-4">
+        
+                    <label class="list-group-item d-flex gap-2">
+                      <input class="form-check-input flex-shrink-0" type="checkbox" value="" checked>
+                      <span>
+                        limited space access
+                      </span>
+                    </label>
+                    <label class="list-group-item d-flex gap-2">
+                      <input class="form-check-input flex-shrink-0" type="checkbox" value="" checked>
+                      <span>
+                        Security facility
+                      </span>
+                    </label>
+                    <label class="list-group-item d-flex gap-2">
+                      <input class="form-check-input flex-shrink-0" type="checkbox" value="" checked>
+                      <span>
+                        event support
+                      </span>
+                    </label>
+                    <label class="list-group-item d-flex gap-2">
+                      <input class="form-check-input flex-shrink-0" type="checkbox" value="" checked>
+                      <span>
+                        Decoration design
+                      </span>
+                    </label>
+                    <label class="list-group-item d-flex gap-2">
+                      <input class="form-check-input flex-shrink-0" type="checkbox" value="" checked>
+                      <span>
+                        Per day bill
+                      </span>
+                    </label>
+                  </ul>
+                  <button type="button" class=" border w-100 rounded-pill  text-primary fw-semibold bg-white">Choose Plan</button>
+                </div>
+                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                  Hot
+                  <span class="visually-hidden">unread messages</span>
+                </span>
+              </div>
+              </div>
+              <!----------------Forth Card------------>
+              <div class="col">
+                <div class="card mb-3 rounded-3 shadow-lg">
+                  <div class="card-body">
+                    <h1 class="card-title pricing-card-title ">$300</h1>
+                    <h1 class="card-title pricing-card-title">Business fair</h1>
+                    <p><small>For more business event like book fair or else.</small></p>
+                    <ul class="list-unstyled mt-3 mb-4">
+
+                      <label class="list-group-item d-flex gap-2">
+                        <input class="form-check-input flex-shrink-0" type="checkbox" value="" checked>
+                        <span>
+                          limited space access
+                        </span>
+                      </label>
+                      <label class="list-group-item d-flex gap-2">
+                        <input class="form-check-input flex-shrink-0" type="checkbox" value="" checked>
+                        <span>
+                          Security facility
+                        </span>
+                      </label>
+                      <label class="list-group-item d-flex gap-2">
+                        <input class="form-check-input flex-shrink-0" type="checkbox" value="" checked>
+                        <span>
+                          event support
+                        </span>
+                      </label>
+                      <label class="list-group-item d-flex gap-2">
+                        <input class="form-check-input flex-shrink-0" type="checkbox" value="" checked>
+                        <span>
+                          Decoration design
+                        </span>
+                      </label>
+                      <label class="list-group-item d-flex gap-2">
+                        <input class="form-check-input flex-shrink-0" type="checkbox" value="" checked>
+                        <span>
+                          Per day bill
+                        </span>
+                      </label>
+                    </ul>
+                    <button type="button" class=" border w-100 rounded-pill  text-primary fw-semibold bg-white">Choose Plan</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
         </section>
+        <!---------------Card Pricing Item start-------------->
+        <!---------------Client review start-------------->
+        <section class="container my-5">
+          <h2 class="fw-bold text-center mb-5">Happy Clients Says </h2>
+          <div class="row">
+            <!------First Client Feeedback---->
+            <div class="col-lg-4 col-md-4 col-sm-1 col-12">
+              <div class="card">
+                <div class="card-body">
+                  <p class="card-text">Employees and managers the world over dread this ritual and therein lays the main problem: we have institutionalized the giving and receiving of feedback.</p>
+                  <div class="text-center">
+                    <img src="images/person 2.png" alt="">
+                    <p>Rehman Malik <br> <small>Banker</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!------Second Client Feeedback---->
+            <div class="col-lg-4 col-md-4 col-sm-1 col-12">
+              <div class="card">
+                <div class="card-body">
+                  <p class="card-text">Employees and managers the world over dread this ritual and therein lays the main problem: we have institutionalized the giving and receiving of feedback.</p>
+                  <div class="text-center">
+                    <img src="images/person 3.png" alt="">
+                    <p>Yenkee Joe<br> <small>Banker</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!------Third Client Feeedback---->
+            <div class="col-lg-4 col-md-4 col-sm-1 col-12">
+              <div class="card">
+                <div class="card-body">
+                  <p class="card-text">Employees and managers the world over dread this ritual and therein lays the main problem: we have institutionalized the giving and receiving of feedback.</p>
+                  <div class="text-center">
+                    <img src="images/person 1.png" alt="">
+                    <p>Aren Yeager <br> <small>Banker</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            
+          </div>
+        </section>
+        <!---------------Client review End-------------->
+
     </main>
+  <!----> 
+    
+
     <!-- JavaScript Bundle with Popper -->
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
