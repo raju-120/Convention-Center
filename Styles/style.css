@@ -1,0 +1,14 @@
+.logo img{
+    width: 100px;
+    height: 30px;
+  }
+  
+
+  @media only screen and (max-width: 526px) {
+    .moment{
+        flex-direction: column-reverse;
+    }
+    .faq{
+        flex-direction: column-reverse;
+    }
+  }
